@@ -1,0 +1,19 @@
+{
+  "name": "hackathon",
+  "version": "1.0.0",
+  "description": "Mail-Newsletter",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YoungCoderboy/mission_impossible_000.git"
+  },
+  "author": "Om,sahil,deep,prathamesh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YoungCoderboy/mission_impossible_000/issues"
+  },
+  "homepage": "https://github.com/YoungCoderboy/mission_impossible_000#readme"
+}
