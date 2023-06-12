@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/YoungCoderboy/mission_impossible_000/issues"
   },
-  "homepage": "https://github.com/YoungCoderboy/mission_impossible_000#readme"
+  "homepage": "https://github.com/YoungCoderboy/mission_impossible_000#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "nodemailer": "^6.9.3"
+  }
 }
