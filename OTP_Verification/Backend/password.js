@@ -2,10 +2,10 @@ var express = require('express');
 var app = express();
 var bodyParser = require('body-parser');
 var cors = require('cors');
-var auth_data=require('./auth_data');
+var data=require('../../auth_data');
 
 
-
+console.log(data)
 app.use(cors('*'));
 app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json())
@@ -19,8 +19,8 @@ var transporter = nm.createTransport(
         port: 587,
         secure: false,
         auth: {
-            user: auth_data.user,
-            pass: auth_data.pass
+            user: data.user,
+            pass: data.pass
         }
     }
 );
